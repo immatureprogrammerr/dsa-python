@@ -1,3 +1,4 @@
+# Non in-place implementation of quick sort
 def quick_sort(array):
 
     if len(array) <= 1:
