@@ -20,7 +20,7 @@ def left_rotate(array, k):
 def right_rotate(array, k):
     # reverse all the numbers
     reverse_array(array, 0, len(array) - 1)
-    # reverse the first k numbers
+    # reverse the last k numbers
     reverse_array(array, k, len(array)- 1)
     return array
 
